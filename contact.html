@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - FastBite Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header scrolled" id="header">
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🍔</span>
+                <span class="logo-text">Fast<span class="highlight">Bite</span></span>
+            </a>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
+                <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-subtitle">Contact Us</span>
+                    <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+                    <p class="section-description">
+                        Have questions or want to place an order? We'd love to hear from you!
+                    </p>
+                </header>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <article class="info-card">
+                            <div class="info-icon">📍</div>
+                            <div class="info-content">
+                                <h4>Our Location</h4>
+                                <p>123 Food Street, Jail Road<br>Lahore, LHR 58648</p>
+                            </div>
+                        </article>
+
+                        <article class="info-card">
+                            <div class="info-icon">📞</div>
+                            <div class="info-content">
+                                <h4>Phone Number</h4>
+                                <p>+92 (312) 3456789<br>+92 (312) 3456790</p>
+                            </div>
+                        </article>
+
+                        <article class="info-card">
+                            <div class="info-icon">✉️</div>
+                            <div class="info-content">
+                                <h4>Email Address</h4>
+                                <p>info@fastbite.com<br>orders@fastbite.com</p>
+                            </div>
+                        </article>
+
+                        <article class="info-card">
+                            <div class="info-icon">🕐</div>
+                            <div class="info-content">
+                                <h4>Opening Hours</h4>
+                                <p>Mon - Fri: 10:00 AM - 11:00 PM<br>Sat - Sun: 11:00 AM - 12:00 AM</p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <form class="contact-form" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="Musab Hussnain" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="username@example.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+92 (324) 1234567">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="order">Place an Order</option>
+                                <option value="reservation">Table Reservation</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="catering">Catering Inquiry</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell us what's on your mind..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-full">
+                            Send Message 📤
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Map -->
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13592.553721931923!2d74.3939335!3d31.6026664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1766584805385!5m2!1sen!2s" 
+                        width="100%" 
+                        height="400" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy"
+                        title="FastBite Location">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq">
+            <div class="container">
+                <header class="section-header">
+                    <span class="section-subtitle">FAQ</span>
+                    <h2 class="section-title">Frequently Asked <span class="highlight">Questions</span></h2>
+                </header>
+
+                <div class="faq-grid">
+                    <article class="faq-item">
+                        <h4>What are your delivery hours?</h4>
+                        <p>We deliver from 10:00 AM to 10:30 PM on weekdays, and 11:00 AM to 11:30 PM on weekends. Last orders are accepted 30 minutes before closing.</p>
+                    </article>
+
+                    <article class="faq-item">
+                        <h4>Do you offer catering services?</h4>
+                        <p>Yes! We offer catering for events of all sizes. Contact us at least 48 hours in advance for large orders.</p>
+                    </article>
+
+                    <article class="faq-item">
+                        <h4>Are there vegetarian options?</h4>
+                        <p>Absolutely! We have a variety of vegetarian burgers, pizzas, and sides. Look for the green "Vegetarian" badge on our menu.</p>
+                    </article>
+
+                    <article class="faq-item">
+                        <h4>What's your delivery radius?</h4>
+                        <p>We deliver within a 5-mile radius of our restaurant. Delivery is free for orders over $25.</p>
+                    </article>
+
+                    <article class="faq-item">
+                        <h4>Can I make a reservation?</h4>
+                        <p>Yes, we accept reservations for parties of 4 or more. Call us or use the contact form to book your table.</p>
+                    </article>
+
+                    <article class="faq-item">
+                        <h4>Do you have allergen information?</h4>
+                        <p>Yes, allergen information is available for all menu items. Please ask our staff or check the detailed menu online.</p>
+                        <br><br>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon">🍔</span>
+                        <span class="logo-text">Fast<span class="highlight">Bite</span></span>
+                    </a>
+                    <p>Serving delicious fast food since 2009. Fresh ingredients, bold flavors, and fast service - that's the FastBite promise!</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">📘</a>
+                        <a href="#" class="social-link" aria-label="Instagram">📷</a>
+                        <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+                        <a href="#" class="social-link" aria-label="YouTube">📺</a>
+                    </div>
+                </div>
+
+                <nav class="footer-nav">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="menu.html">Our Menu</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <nav class="footer-nav">
+                    <h4>Menu Categories</h4>
+                    <ul>
+                        <li><a href="menu.html">Burgers</a></li>
+                        <li><a href="menu.html">Pizzas</a></li>
+                        <li><a href="menu.html">Sides & Snacks</a></li>
+                        <li><a href="menu.html">Beverages</a></li>
+                        <li><a href="menu.html">Desserts</a></li>
+                    </ul>
+                </nav>
+
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to get special offers and updates!</p>
+                    <form class="newsletter-form" action="#" method="POST">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 FastBite Restaurant. All Rights Reserved.</p>
+                <p>Made with ❤️ for food lovers everywhere</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Simple JavaScript for mobile menu toggle -->
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('nav-menu');
+        const header = document.getElementById('header');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
